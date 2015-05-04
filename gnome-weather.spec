@@ -1,4 +1,5 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
+%define debug_package %{nil}
 
 Name:		gnome-weather
 Version:	3.16.2.1
@@ -15,7 +16,7 @@ BuildRequires:	pkgconfig(gio-2.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires:	pkgconfig(gjs-1.0)
-BuildRequires:	pkgconfig(gweather-3.0) >= %{version}
+BuildRequires:	pkgconfig(gweather-3.0)
 
 %description
 %{name} is a weather application for GNOME.

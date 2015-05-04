@@ -1,9 +1,10 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 %define debug_package %{nil}
+%define __noautoreq /usr/bin/gjs
 
 Name:		gnome-weather
 Version:	3.16.2.1
-Release:	1
+Release:	2
 Summary:	A weather application for GNOME
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
@@ -17,6 +18,7 @@ BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires:	pkgconfig(gjs-1.0)
 BuildRequires:	pkgconfig(gweather-3.0)
+Requires:	gjs
 
 %description
 %{name} is a weather application for GNOME.

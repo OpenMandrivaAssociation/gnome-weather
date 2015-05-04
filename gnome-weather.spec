@@ -1,8 +1,8 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-weather
-Version:	3.14.1
-Release:	%mkrel 3
+Version:	3.16.2.1
+Release:	1
 Summary:	A weather application for GNOME
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
@@ -24,7 +24,7 @@ BuildRequires:	pkgconfig(gweather-3.0) >= %{version}
 %setup -q
 
 %build
-%configure2_5x --disable-schemas-compile
+%configure --disable-schemas-compile
 %make
 
 %install

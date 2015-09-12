@@ -4,7 +4,7 @@
 
 Name:		gnome-weather
 Version:	3.16.2.1
-Release:	3
+Release:	4
 Summary:	A weather application for GNOME
 License:	GPLv2+
 Group:		Graphical desktop/GNOME

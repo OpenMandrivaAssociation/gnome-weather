@@ -1,10 +1,11 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 %define debug_package %{nil}
 %define __noautoreq /usr/bin/gjs
+%define _disable_rebuild_configure 1
 
 Name:		gnome-weather
 Version:	3.18.1
-Release:	4
+Release:	1
 Summary:	A weather application for GNOME
 License:	GPLv2+
 Group:		Graphical desktop/GNOME

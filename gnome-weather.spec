@@ -3,7 +3,7 @@
 %define __noautoreq /usr/bin/gjs
 
 Name:		gnome-weather
-Version:	3.16.2.1
+Version:	3.18.1
 Release:	4
 Summary:	A weather application for GNOME
 License:	GPLv2+

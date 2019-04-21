@@ -20,6 +20,7 @@ BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires:	pkgconfig(gjs-1.0)
 BuildRequires:	pkgconfig(gweather-3.0)
+BuildRequires:  pkgconfig(geoclue-2.0)
 Requires:	gjs
 
 %description

@@ -31,7 +31,7 @@ Requires:	gjs
 
 %build
 %meson
-%meson_buid
+%meson_build
 
 %install
 %meson_install

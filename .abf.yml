@@ -1,5 +1,2 @@
-removed_sources:
-  gnome-weather-3.14.1.tar.xz: d8bf4903db141fe6a57037879e4ff5f8d2756f9c
-  gnome-weather-3.16.2.1.tar.xz: e58f3734a8f2b94c9b4bc8000fe8e7395c143548
 sources:
-  gnome-weather-3.18.1.tar.xz: 0f25bab55d8a720ae3d14ec3f71cd2d8446d54a3
+  gnome-weather-3.32.2.tar.xz: 73a236321b7d80bb710eb9a301d3524a0ce1e245

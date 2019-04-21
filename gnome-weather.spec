@@ -43,9 +43,9 @@ find %{buildroot} -name "*.la" -delete
 %files -f org.gnome.Weather.lang
 %doc NEWS data/CREDITS
 %{_bindir}/%{name}
-%{_datadir}/appdata/org.gnome.Weather.Application.appdata.xml
+%{_datadir}/metainfo/org.gnome.Weather.appdata.xml
 %{_datadir}/org.gnome.Weather
-%{_datadir}/gnome-shell/search-providers/org.gnome.Weather.Application.search-provider.ini
+%{_datadir}/gnome-shell/search-providers/org.gnome.Weather.search-provider.ini
 %{_datadir}/glib-2.0/schemas/*
 %{_datadir}/applications/*
 %{_iconsdir}/*/*/*/*

@@ -11,6 +11,7 @@ License:	GPLv2+
 Group:		Graphical desktop/GNOME
 Url:		https://wiki.gnome.org/Apps/Weather
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+BuildRequires:  cmake
 BuildRequires:	intltool
 BuildRequires:	gjs
 BuildRequires:  meson
@@ -21,6 +22,7 @@ BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires:	pkgconfig(gjs-1.0)
 BuildRequires:	pkgconfig(gweather-3.0)
 BuildRequires:  pkgconfig(geoclue-2.0)
+BuildRequires:  pkgconfig(libhandy-1)
 Requires:	gjs
 
 %description

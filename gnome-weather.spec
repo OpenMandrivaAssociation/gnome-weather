@@ -4,7 +4,7 @@
 %define _disable_rebuild_configure 1
 
 Name:		gnome-weather
-Version:	41.0
+Version:	42.0
 Release:	1
 Summary:	A weather application for GNOME
 License:	GPLv2+
@@ -17,12 +17,12 @@ BuildRequires:	gjs
 BuildRequires:  meson
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gio-2.0)
-BuildRequires:	pkgconfig(gtk+-3.0)
+BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires:	pkgconfig(gjs-1.0)
-BuildRequires:	pkgconfig(gweather-3.0)
+BuildRequires:	pkgconfig(gweather4)
 BuildRequires:  pkgconfig(geoclue-2.0)
-BuildRequires:  pkgconfig(libhandy-1)
+BuildRequires:  pkgconfig(libadwaita-1)
 Requires:	gjs
 
 %description

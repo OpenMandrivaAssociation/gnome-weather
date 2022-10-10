@@ -4,7 +4,7 @@
 %define _disable_rebuild_configure 1
 
 Name:		gnome-weather
-Version:	42.0
+Version:	43.0
 Release:	1
 Summary:	A weather application for GNOME
 License:	GPLv2+

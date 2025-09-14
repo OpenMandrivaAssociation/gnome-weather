@@ -4,7 +4,7 @@
 %define _disable_rebuild_configure 1
 
 Name:		gnome-weather
-Version:	48.0
+Version:	49.0
 Release:	1
 Summary:	A weather application for GNOME
 License:	GPLv2+
@@ -15,6 +15,7 @@ BuildRequires:  cmake
 BuildRequires:	intltool
 BuildRequires:	gjs
 BuildRequires:  meson
+BuildRequires:  typescript
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gio-2.0)
 BuildRequires:	pkgconfig(gtk4)
@@ -29,7 +30,7 @@ Requires:	gjs
 %{name} is a weather application for GNOME.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %meson
@@ -45,7 +46,7 @@ find %{buildroot} -name "*.la" -delete
 %files -f org.gnome.Weather.lang
 %doc NEWS data/CREDITS
 %{_bindir}/%{name}
-%{_datadir}/metainfo/org.gnome.Weather.appdata.xml
+%{_datadir}/metainfo/org.gnome.Weather.metainfo.xml
 %{_datadir}/org.gnome.Weather
 %{_datadir}/gnome-shell/search-providers/org.gnome.Weather.search-provider.ini
 %{_datadir}/glib-2.0/schemas/*

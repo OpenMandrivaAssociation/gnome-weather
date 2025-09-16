@@ -11,7 +11,9 @@ License:	GPLv2+
 Group:		Graphical desktop/GNOME
 Url:		https://wiki.gnome.org/Apps/Weather
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+BuildRequires:  appstream
 BuildRequires:  cmake
+BuildRequires:  desktop-file-utils
 BuildRequires:	intltool
 BuildRequires:	gjs
 BuildRequires:  meson

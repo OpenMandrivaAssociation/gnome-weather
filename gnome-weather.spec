@@ -1,6 +1,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 %define debug_package %{nil}
 %define __noautoreq /usr/bin/gjs
+%define __noautoreq GLib
 %define _disable_rebuild_configure 1
 
 Name:		gnome-weather

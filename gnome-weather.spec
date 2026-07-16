@@ -7,7 +7,7 @@
 
 Name:		gnome-weather
 Version:	50.0
-Release:	2
+Release:	3
 Summary:	A weather application for GNOME
 License:	GPLv2+
 Group:		Graphical desktop/GNOME

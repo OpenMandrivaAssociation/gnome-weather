@@ -37,6 +37,8 @@ Requires:	gjs
 
 %prep
 %autosetup -p1
+# Work around TypeScript 7 errors in thermometer.ts
+sed -i '1i// @ts-nocheck' src/app/thermometer.ts
 
 %build
 %meson

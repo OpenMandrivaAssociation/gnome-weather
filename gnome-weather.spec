@@ -13,6 +13,8 @@ License:	GPLv2+
 Group:		Graphical desktop/GNOME
 Url:		https://wiki.gnome.org/Apps/Weather
 Source0:	https://download.gnome.org/sources/%{name}/%{url_ver}/%{name}-%{version}.tar.xz
+# Fedora patch
+Patch0:   typescript-6.0.patch
 BuildRequires:  appstream
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
